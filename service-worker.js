@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/DawiDeX-Zero/TypingSpeed/precache-manifest.235fec2c84be784816fc6ea183666389.js"
+  "/TypingSpeed/precache-manifest.45c0c63f13aea724f3d94b388ec8e62e.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/DawiDeX-Zero/TypingSpeed/index.html", {
+workbox.routing.registerNavigationRoute("/TypingSpeed/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });

@@ -1,4 +1,5 @@
-#TypingSpeed
+# TypingSpeed
+
 Test it [here](https://dawidex-zero.github.io/TypingSpeed/).
 
 Simple Typing Speed Tester.

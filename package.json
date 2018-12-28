@@ -2,7 +2,7 @@
   "name": "typingspeedapp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/DawiDeX-Zero/TypingSpeed",
+  "homepage": "https://dawidex-zero.github.io/TypingSpeed/",
   "dependencies": {
     "react": "^16.7.0",
     "react-dom": "^16.7.0",

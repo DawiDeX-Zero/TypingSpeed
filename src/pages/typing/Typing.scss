@@ -1,0 +1,31 @@
+@import '../../variables.scss';
+.typing{
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    & .typing__textarea{
+        height:30%;
+        & textarea{
+            width: 100%;
+            height: 100%;
+            font-size: 20px;
+            border-color: $color-primary;
+            border-radius: .5em;
+            padding: 1em;
+            resize: none;
+            &:disabled
+            {
+                background: $color-bg;
+            }
+        }
+    }
+    & .typing__textarea, & .typing__text{
+        width: 50%;
+    }
+    & .typing__text{
+        margin-bottom: 1em;
+    }
+}

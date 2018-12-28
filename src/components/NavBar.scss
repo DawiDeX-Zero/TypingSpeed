@@ -1,0 +1,42 @@
+@import '../variables';
+.nav{
+    display: flex;
+    width: 100vw;
+    min-height: 11vh;
+    align-items: center;
+    padding: 1em 0;
+    & .nav__logo{
+        float: left;
+        width: 50%;
+        margin: 0;
+        margin-left: 1em;
+    }
+    & .nav__menu{
+        float: right;
+        width: 50%;
+        margin-right: 1em;
+        & ul{
+            float: right;
+            text-align: right;
+            list-style: none;
+            & li{
+                box-sizing: border-box;
+                float:left;
+                margin-right: 2em;
+                cursor: pointer;
+                padding: .5em 1.2em;
+                border: 2px solid $color-bg;
+                &.active{
+                    font-weight: 700;
+                }
+                &:hover{
+                    border-color: $color-primary;
+                }
+            }
+        }
+    }
+    &::after{
+        content: "";
+        clear: both;
+    }
+}

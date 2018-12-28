@@ -2,6 +2,7 @@
   "name": "typingspeedapp",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/DawiDeX-Zero/TypingSpeed",
   "dependencies": {
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
@@ -11,7 +12,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -21,5 +24,17 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "@types/react": "^16.7.18",
+    "babel-eslint": "^9.0.0",
+    "babel-loader": "^8.0.4",
+    "eslint": "^5.6.0",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-react": "^7.11.1",
+    "gh-pages": "^2.0.1",
+    "list-react-files": "^0.2.0",
+    "node-sass": "^4.11.0",
+    "random-words": "^1.1.0"
+  }
 }

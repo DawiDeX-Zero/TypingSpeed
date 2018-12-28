@@ -1,0 +1,27 @@
+@import '../variables.scss';
+.typing__text{
+    height: 20%;
+    overflow-y: hidden;
+    text-align: center;
+    &--scrollable{
+        overflow-y: auto;
+    }
+    & .word{
+        font-size: 20px;
+        display: inline-block;
+        padding: .1em;
+        padding-bottom: 0;
+        color: $color-secondary;
+        &.word--active{
+            border-bottom: 2px solid $color-primary;
+            color: $color-primary;
+            // padding-left: .2em;
+        }
+        &.word--positive{
+            color: #09ff00;
+        }
+        &.word--negative{
+            color: red;
+        }
+    }
+}

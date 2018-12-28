@@ -1,0 +1,27 @@
+.textsList{
+    margin-top: 2em;
+    font-size: 18px;
+}
+.texts{
+    &__single{
+        width: 70%;
+        margin: 0 auto;
+        padding: 1.5em 0;
+        &-name{
+            width: 70%;
+        }
+        &-language{
+            width: 10%;
+        }
+        &-button{
+            width: 20%;
+        }
+        &-name, &-language, &-button{
+            float: left;
+        }
+        &-btn{
+            width: 70%;
+            margin: 0 auto;
+        }
+    }
+}

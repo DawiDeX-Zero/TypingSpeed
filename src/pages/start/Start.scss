@@ -1,0 +1,23 @@
+@import '../../variables';
+.startScreen{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  & .startScreen__header{
+    display:block;
+    color: $color-primary;
+    text-align: center;
+    margin-bottom: 0;
+    &-author{
+      text-align: center;
+      margin-bottom: 5em;
+    }
+  }
+}
+.btn--start{
+  width: 30%;
+  height: 30px;
+  align-self: center;
+}

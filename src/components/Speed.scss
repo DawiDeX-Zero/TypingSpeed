@@ -1,0 +1,12 @@
+.typing__speed{
+    width: 50%;
+    margin-top: 2em;
+    &-wpm, &-cpm{
+        width: 100%;
+    }
+    &-single{
+        display: inline-block;
+        width: 50%;
+        text-align: center;
+    }
+}

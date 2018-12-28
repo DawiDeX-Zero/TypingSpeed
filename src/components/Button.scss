@@ -1,0 +1,11 @@
+@import '../variables';
+.btn{
+    display: inline-block;
+    color: $color-secondary;
+    border: 2px solid $color-secondary;
+    background-color: $color-bg;
+    &:hover{
+        color: $color-primary;
+        border: 2px solid $color-primary;
+    }
+}
